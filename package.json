@@ -15,7 +15,8 @@
     "lint-staged": "lint-staged",
     "type-check": "tsc --noEmit",
     "full-lint": "eslint src --ext .ts,.tsx,.js,.jsx --fix --max-warnings=0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "npm run prepare"
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.34.0",
